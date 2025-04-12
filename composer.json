@@ -1,0 +1,28 @@
+{
+    "name": "serg/repo-extended",
+    "description": "Extended classes for Chocolate Factory",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Serg\\Repo\\Snacks\\": "src/Snacks",
+            "Serg\\Repo\\Factories\\": "src/Factories"
+        }
+    },
+    "require": {
+        "serg/repo-core": "@dev"
+    },
+    "authors": [
+        {
+            "name": "Serg",
+            "email": "skarina.021007@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "path",
+            "url": "C:/php/ЗАДАНИЯ/зад 6"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
